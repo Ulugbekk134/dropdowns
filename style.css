@@ -1,0 +1,38 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;   
+ background-color: blueviolet;
+ 
+ 
+}
+.parent
+{
+    width: 100px;
+   
+}
+.list
+{
+    position: absolute;
+    z-index: 1;
+    display: none;
+
+}
+.parent:hover .list
+{
+ display: block;   
+}
+h2{
+    color: white;
+}
+.region
+{
+    width: 200px;
+    background-color: white;
+    height: 50px;
+ 
+}
+
+
